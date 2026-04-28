@@ -1,35 +1,58 @@
 # Loading Tab Items from a Remote DataSource in the Angular Tabs Component
 
-A quick start Angular project that shows how to load tab items from a JSON collection and remote data source in the Syncfusion Angular Tab component.
+**Repository Description**  
+This repository contains a quick‑start Angular sample that demonstrates how to load tab items dynamically from a JSON collection and a remote data source using the Syncfusion Angular Tab component.
 
-Documentation: https://ej2.syncfusion.com/angular/documentation/tab/how-to/load-tab-with-data-source
+The sample provides a reference implementation for data‑driven tab generation, allowing applications to populate tab headers and content at runtime based on external data.
 
-# Project pre-requisites
+## Project Overview
+The purpose of this project is to help developers understand how to bind local JSON data and remote service data to the Syncfusion Angular Tabs component. It demonstrates how tabs can be generated dynamically, making it useful for dashboards, configuration screens, or applications that rely on backend‑driven UI layouts.
 
-Make sure that you have the compatible versions of TypeScript and Angular in your machine before starting to work on this project.
+## Features
+- Integration of the Syncfusion Angular Tabs component  
+- Load tab items from a local JSON collection  
+- Load tab items from a remote data source  
+- Dynamic creation of tab headers and content  
+- Clean and responsive Angular tab layout  
 
-Angular 4+
+## Prerequisites
+Ensure the following requirements are met before running this project:
+- Angular 4 or later  
+- TypeScript 2.6 or later  
+- NodeJS  
+- Visual Studio Code  
 
-TypeScript 2.6+
+## Installation and Running the Application
 
-# How to run this application?
+1. Clone the repository and navigate to the project directory:
+```bash
+git clone https://github.com/SyncfusionExamples/loading-tab-items-from-a-remote-datasource-in-the-angular-tabs-component.git
+```
+2. Install the required Angular packages:`npm install`.
+3. Start the Angular development server:`ng serve`.
+4. Open your browser and navigate to:`http://localhost:4200/`.
+5. The application will automatically reload if you change any source files.
 
-To run this application, you need to first clone the loading-tab-items-from-a-remote-datasource-in-the-angular-tabs-component repository and then navigate to its appropriate path where it has been in your system.
+## Usage
+Run the application to see how tab items are populated dynamically from JSON data and remote sources. This approach can be extended to build multi‑view dashboards, data‑driven navigation panels, or configurable UI flows in Angular applications.
 
-To do so, open the command prompt and run the below commands one after the other.
+## Documentation
+- General Syncfusion documentation:
+https://help.syncfusion.com/
+- Angular Introduction:
+https://ej2.syncfusion.com/angular/documentation/introduction
+- Angular Tab Component Getting Started:
+https://ej2.syncfusion.com/angular/documentation/tab/getting-started
 
-git clone angular-example
+## Additional Resources
+- Loading tab items using data sources:
+https://ej2.syncfusion.com/angular/documentation/tab/how-to/load-tab-with-data-source
 
-cd angular-example
+## Troubleshooting
+- Ensure compatible versions of Angular and TypeScript are installed.
+- Re‑run npm install if dependency installation fails.
+- Restart the development server if data changes are not reflected.
+- Check the browser console for network or data‑binding errors.
 
-# Installing
-
-Once done with downloading, next you need to install the necessary packages required to run this application locally. The npm install command will install all the needed angular packages into your current project and to do so, run the below command.
-
-npm install
-
-# Running on development server
-
-Run ng serve command for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
-
+## Support
+For detailed API references, configuration options, and advanced usage examples, refer to the Syncfusion Angular Tabs documentation links provided above.
