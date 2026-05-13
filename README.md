@@ -1,6 +1,5 @@
 # Loading Tab Items from a Remote DataSource in the Angular Tabs Component
 
-**Repository Description**  
 This repository contains a quick‑start Angular sample that demonstrates how to load tab items dynamically from a JSON collection and a remote data source using the Syncfusion Angular Tab component.
 
 The sample provides a reference implementation for data‑driven tab generation, allowing applications to populate tab headers and content at runtime based on external data.
